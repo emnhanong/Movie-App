@@ -39,9 +39,8 @@ function App() {
 
   // handle submit form search
   const handleSubmit = (e) => {
-    console.log(regex);
       e.preventDefault();
-      if(searchMovie === "" || regex == true ){
+      if(searchMovie === "" || regex === true ){
           alert("The content of the movie you are looking for does not exist")
       }
       else{
@@ -55,14 +54,12 @@ function App() {
     if(movies && pageNumber !== 1 ){
       setPageNumber(pageNumber - 1);
     }
-    console.log(pageNumber);
   }
 
   const nextPage = () => {
       if(movies && pageNumber !== total_pages){
         setPageNumber(pageNumber + 1);
       }
-      console.log(pageNumber);
   }
 
   // call api
