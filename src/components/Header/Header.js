@@ -1,13 +1,13 @@
 import React from 'react';
 import "../Header/Header.css";
 import { CgSearch } from "react-icons/cg";
-import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 function header(props) {
     return (
         <Router>
            <div className="header">
                 <Link className="logo" to = "/">
-                    <img src="../logo.png" />
+                    <img src="../logo.png" alt="logo"/>
                 </Link >  
                 <form onSubmit={props.handleSubmit} className="form-movie">
                     <input className ="search" placeholder="Search movie name..." onChange={props.handleSearch} value={props.searchMovie} />
