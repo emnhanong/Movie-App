@@ -1,0 +1,26 @@
+.pagination{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.pagination .next:hover,.pagination .prev:hover{
+    cursor: pointer;
+}
+.pagination .prev,.pagination .next{
+    background: #A21D0A;
+    height: 50px;
+    padding: 0px 30px;
+    border: none;
+    margin: 0px 10px;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 7px;
+    transition: 0.5s;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Source Serif Pro', serif;
+}
+.pagination .next:hover, .pagination .prev:hover{
+    background: #fff;
+    color: #A21D0A;
+}

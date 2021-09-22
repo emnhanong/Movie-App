@@ -1,0 +1,19 @@
+body{
+  background-color: #6f6d72;
+  margin-top: 40px;
+  font-family: 'Crimson Text', serif;
+font-family: 'Source Serif Pro', serif;
+}
+
+* .wrap::-webkit-scrollbar {
+  width: 0px;
+}
+
+.movies-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
